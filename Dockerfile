@@ -1,6 +1,7 @@
 FROM debian:stretch-slim
-RUN apt-get update && \
-    apt-get -y install gcc mono-mcs && \
-    rm -rf /var/lib/apt/lists/*
-RUN gcc /dockertest/hello_world.c
-RUN ./dockertest/hello_world
+#RUN apt-get update && \
+ #   apt-get -y install gcc mono-mcs && \
+  #  rm -rf /var/lib/apt/lists/*
+#RUN gcc /dockertest/hello_world.c
+#RUN ./dockertest/hello_world
+RUN cd
